@@ -28,7 +28,7 @@ const Header = () => {
     <header className="bg-white shadow-sm fixed top-0 w-full z-50 border-b">
       <nav className="h-16 flex items-center justify-between w-[1200px] mx-auto">
         <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-8 w-8" />
+          <img src="./logo.png" alt="Logo" className="h-8 w-8" />
           <div className="ml-8 space-x-8">
             {HeaderInfos.map((item) =>
               item.isNotRoute ? (

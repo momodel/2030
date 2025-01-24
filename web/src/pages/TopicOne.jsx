@@ -8,7 +8,7 @@ const TopicOne = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src="/topic/topic1-one.png" alt="banner" className="w-full" />
+        <img src="./topic/topic1-one.png" alt="banner" className="w-full" />
       </a>
       <a
         className="mx-auto max-w-[1920px] w-screen min-w-[1200px]"
@@ -16,7 +16,7 @@ const TopicOne = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src="/topic/topic1-two.png" alt="banner" className="w-full " />
+        <img src="./topic/topic1-two.png" alt="banner" className="w-full " />
       </a>
       <a
         className="mx-auto max-w-[1920px] w-screen min-w-[1200px]"
@@ -24,7 +24,7 @@ const TopicOne = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src="/topic/topic1-three.png" alt="banner" className="w-full " />
+        <img src="./topic/topic1-three.png" alt="banner" className="w-full " />
       </a>
       <a
         className="mx-auto max-w-[1920px] w-screen min-w-[1200px]"
@@ -32,7 +32,7 @@ const TopicOne = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src="/topic/topic1-four.png" alt="banner" className="w-full " />
+        <img src="./topic/topic1-four.png" alt="banner" className="w-full " />
       </a>
       <a
         className="mx-auto max-w-[1920px] w-screen min-w-[1200px]"
@@ -40,7 +40,7 @@ const TopicOne = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img src="/topic/topic1-five.png" alt="banner" className="w-full " />
+        <img src="./topic/topic1-five.png" alt="banner" className="w-full " />
       </a>
       <a
         className="mx-auto max-w-[1920px] w-screen min-w-[1200px] mt-[45px] flex items-center justify-center"
@@ -49,7 +49,7 @@ const TopicOne = () => {
         target="_blank"
       >
         <img
-          src="/topic/topic1-six.png"
+          src="./topic/topic1-six.png"
           alt="banner"
           className="max-w-[1100px]"
         />

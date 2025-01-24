@@ -34,14 +34,14 @@ const Home = () => {
     <div className="min-h-screen bg-white flex flex-col items-center">
       {/* Banner Section */}
       <section className="mx-auto max-w-[1920px] w-screen min-w-[1200px]">
-        <img src="/home/banner-home.png" alt="banner" className="w-full " />
+        <img src="./home/banner-home.png" alt="banner" className="w-full " />
       </section>
 
       {/* Features Grid */}
       <section className="w-screen px-4 mx-auto py-16 max-w-[1920px] flex flex-col items-center">
         <h2 className="text-2xl font-bold mb-8 text-center">平台特色</h2>
         <img
-          src="/home/platform-feature.png"
+          src="./home/platform-feature.png"
           alt="platform"
           className="max-w-[1200px]"
         />
@@ -62,7 +62,7 @@ const Home = () => {
               rel="noreferrer"
             >
               <img
-                src={`/home/platform-${index + 1}.png`}
+                src={`./home/platform-${index + 1}.png`}
                 alt="AI Platform"
                 className="w-full"
               />
@@ -89,7 +89,7 @@ const Home = () => {
                   onClick={() => goToSlide(index)}
                 >
                   <img
-                    src="/home/news-banner-1.png"
+                    src="./home/news-banner-1.png"
                     alt="news-banner"
                     className="w-[1200px]"
                   />
@@ -115,7 +115,7 @@ const Home = () => {
       <section className="w-screen px-4 mx-auto py-8 max-w-[1920px] flex flex-col items-center">
         <h2 className="text-2xl font-bold mb-8 text-center">贡献单位</h2>
         <img
-          src="/home/partners.png"
+          src="./home/partners.png"
           alt="partner"
           className="max-w-[1200px]"
         />
